@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row{
+    margin: 0!important;
+}
+
+hr{
+    margin: 0;
+}
+nav{
+    margin: 0 !important;
+    border-radius: 0 !important;
+}
+
+main{
+    background-color: #cdd2cd;
+}
+
+footer{
+    width: 100% !important;
+    background: #379683;
+    padding: 4rem;
+    color: white;
+}
+.social_links_top > strong{
+    padding: 0 1.3rem;
+    font-size: 2rem;
+}
+
+.social_links_top > div{
+    margin-right: 2rem;
+}
+.social_links_top > div > strong{
+    padding: 0 1.3rem;
+}
+
+.top_contact{
+    position: relative; 
+    background-color: #379683;
+    padding: 2rem;
+}
+
+.topNav{
+    background: #3ea792;
+    color: black;
+    z-index: 999;
+    transition: all .5s;
+}
+
+.iconTop{
+    color: #05386b;
+}
+
+.text_top{
+    color: #fbf9c5;
+    padding-left: 2px;
+}
+
+
+.sticky{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding: .5rem;
+    box-shadow: 2px 2px 20px 2px black;
+}
+
+
+#myNavbar> ul> li> a{
+    color: white;
+    font-weight: 500;
+}
+.articles{
+    padding: 1rem 0rem;
+}
+
+.card-news{
+    border-bottom: 1px solid #6bd0bc;
+    padding-bottom: 1rem;
+}
+
+
+.card-img, .card-others{
+    height: 10rem;
+    width: 100%;
+    overflow: hidden;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    border-radius: 5px;
+}
+
+.card-others{
+    height: 5rem !important;
+}
+
+.acde_leftP{
+  right: 5rem !important;
+  /* top: .3rem;   */
+}
+.acde_left{
+    top: -2.5rem !important;
+    right: 3rem !important;
+    transform: rotate(-90deg);
+    color: #0CE8B2;
+}
+.acde_right{
+    top: -25px !important;
+    transform: rotate(-90deg) !important;
+    color: #0CE8B2;
+    right: 5rem !important;
+}
+
+.text_shadow{
+    text-shadow: 2px 2px 4px 4px black !important;
+}
+
+.overlay{
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+}
+
+
+/* acdemic */
+.ac_elems{
+    padding: 2rem;
+    margin-top: .1rem;
+    display: flex;
+    /* background-color: #0CE8B2 !important; */
+}
+.ac_logo{
+    width: 4rem;
+}
+
+.ac_icon{
+    font-size: 2.5rem;
+    color: #0D77FF;
+}
+
+
+/*  */
+.ac_head{
+    background: #6bd0bc; 
+    margin-bottom: 0; 
+    padding: 1rem
+}
+
+.bolder_blue{
+    border: 1px solid #6bd0bc;
+}
+
+.carousel_top{
+    background: #e80c0c; 
+    color: black; 
+    text-align: center;
+    padding: 1rem;
+}
+
+.just_say{
+    box-shadow: 1px 3px 13px 4px rgba(0,0,0,0.35);
+    padding: 1rem;
+}
